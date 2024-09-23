@@ -1,0 +1,5 @@
+{
+    "livePreview.hostIP": "127.0.0.1",
+    "livePreview.serverRoot": "",
+    "livePreview.defaultPreviewPath": "/index.html"
+}

@@ -1,0 +1,120 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e9e3f5; /* Light purple background for the whole page */
+    padding: 0;
+    margin: 0;
+}
+
+/* Container for overall layout */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff; /* White background for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background: #d4b8f2; /* Light purple background for the sidebar */
+    border-right: 1px solid #b891e3; /* Slightly darker purple border */
+}
+
+.profile-photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact-info h2 {
+    font-size: 1.5em;
+    color: #6a1b9a; /* Darker purple for the contact heading */
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info .icon {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #6a1b9a; /* Darker purple for the contact links */
+    display: flex;
+    align-items: center;
+}
+
+.contact-text {
+    display: none; /* Hides the contact text */
+}
+
+/* Main content styling */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: #f6f0fc; /* Very light purple background for the main content */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #6a1b9a; /* Darker purple for the main heading */
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #8e2c8e; /* Slightly lighter purple for the subheading */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #6a1b9a; /* Darker purple border for section headings */
+    padding-bottom: 5px;
+    color: #6a1b9a; /* Darker purple for section headings */
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    color: #666;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #d4b8f2; /* Light purple background for the footer */
+    border-top: 1px solid #b891e3; /* Slightly darker purple border */
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
